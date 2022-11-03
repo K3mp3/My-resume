@@ -1,13 +1,12 @@
 /*Variables*/
 
 $primary-color: #f0f3f5;
-$secondary-color: #0c0c13;
 
 
 /*Header section*/
 
 header {
-    background-color: $secondary-color;
+    background-color: #10101a;
 
     nav a:hover {
         background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
@@ -18,7 +17,7 @@ header {
     .desktop-background {
         max-width: 1400px;
         height: 600px;
-        background-color: $secondary-color;
+        background-color: #10101a;
         display: flex;
         margin: auto;
     }
@@ -156,7 +155,7 @@ main {
 
     .aside-skills {
         width: 300px;
-        background-color: $secondary-color;
+        background-color: #10101a;
         margin: auto;
         padding: 30px 25px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 100px -20px;
@@ -167,14 +166,14 @@ main {
         .front-skill-frame {
             min-width: 200px;
             min-height: 295px;
-            background-color: $secondary-color;
+            background-color: #10101a;
             color: $primary-color;
         }
     
         .tech-skill-frame {
             min-width: 200px;
             min-height: 295px;
-            background-color: $secondary-color;
+            background-color: #10101a;
             color: $primary-color;
         }
     }
