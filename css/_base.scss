@@ -1,6 +1,7 @@
 /*Variables*/
 
 $primary-color: #f0f3f5;
+$secondary-color: #0c0c13;
 
 
 /*Body*/
@@ -53,7 +54,7 @@ ul {
 /*header section*/
 
 header {
-    background-color: #10101a;
+    background-color: $secondary-color;
     color: $primary-color;
     position: relative;
 
@@ -79,7 +80,6 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top: 70px;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -192,6 +192,7 @@ main{
     background-color: $primary-color;
     padding-top: 40px;
     font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 40px;
 
     .education {
         padding: 20px;
@@ -260,7 +261,7 @@ main{
 
     .skills-mobile {
         max-width: 1400px;
-        background-color: #10101a;
+        background-color: $secondary-color;
         margin: auto;
         padding: 30px 15px;
         margin-top: 100px;
@@ -425,8 +426,8 @@ main{
 /*Footer section*/
 
 footer {
-    padding: 30px 15px;
-    background-color: #10101a;;
+    padding: 30px 20px;
+    background-color: $secondary-color;
     color: $primary-color;
 
     .contact {
@@ -494,7 +495,7 @@ footer {
         line-height: 65px;
         height: 70px;
         width: 49%;
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
         border-radius: 0;
         cursor: pointer;
         transition: all 0.5s ease-in-out;
@@ -510,7 +511,7 @@ footer {
         text-align: center;
         vertical-align: middle;
         width: 49%;
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
         border-radius: 0;
         color: #000;
         cursor: pointer;
