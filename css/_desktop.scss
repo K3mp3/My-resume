@@ -1,0 +1,239 @@
+/*Variables*/
+
+$primary-color: #f0f3f5;
+
+
+/*Header section*/
+
+header {
+    background-color: #10101a;
+
+    nav a:hover {
+        background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .desktop-background {
+        max-width: 1400px;
+        height: 600px;
+        background-color: #10101a;
+        display: flex;
+        margin: auto;
+    }
+
+    .desktop-header { //Background on header for resume page
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    aside {
+        max-width: 550px;
+        padding-top: 200px;
+        margin-left: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+
+    .resume-heading {
+        font-size: 6rem;
+    }
+    
+    .about-me {
+        background-color: $primary-color;
+        width: 50%;
+        margin-top: 50px;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 50px -100px, rgba(255, 255, 255, 0.3) 0px 20px 100px -30px;
+        margin-bottom: 50px;
+    }
+    
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+        background-image: url("../assets/photos/profilePicture.webp");
+        background-size: cover; 
+        background-position: center;
+        margin: auto;
+        position: relative;
+        margin-right: -100px;
+    }
+    
+    .about-me-paragraph {
+        margin: auto;
+        max-width: 450px;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #000000;
+        padding: 100px 50px 20px 150px;
+    }
+}
+
+
+/*Main section*/
+
+main {
+    background-color: $primary-color;
+    padding-top: 60px;
+    //height: 100vh;
+
+    .education-background {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+        max-width: 1100px;
+        padding: 0;
+    }
+
+    .education {
+        margin-top: 0px;
+        margin: 0;
+        background-color: $primary-color;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 100px -20px;
+    }
+    
+    .work-experience {
+        max-width: 1100px;
+        margin: 50px auto;
+    }
+
+    .work-background {
+        max-width: 600px;
+        padding: 20px;
+        background-color: $primary-color;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 100px -20px;
+    }
+
+    .text-holder {
+        max-width: 600px;
+        background-color: $primary-color;
+        ;
+    }
+    
+    .choose { //Div with to links
+        min-width: 800px;
+        max-width: 1400px;
+        display: grid;
+        //margin-top: 220px;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    
+        .resume {
+            width: 100%;
+            height: 400px;
+            background-size: cover; 
+            background-position: center;
+            text-align: center;
+            margin-right: 20px;
+        }
+    
+        .portfolio {
+            width: 100%;
+            height: 400px;
+            background-size: cover; 
+            background-position: center;
+            text-align: center;
+            margin: 0;
+        }
+
+        h3 {
+            color: $primary-color;
+            line-height: 400px;
+            font-size: 3.5rem;
+        }
+    }
+    
+
+    /*Skill section*/
+
+    .skills-mobile {
+        display: none;
+    }
+    
+
+    .aside-skills {
+        width: 300px;
+        background-color: #10101a;
+        margin: auto;
+        padding: 30px 25px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 100px -20px;
+        z-index: 1;
+        display: block;
+        margin-top: -120px;
+    
+        .front-skill-frame {
+            min-width: 200px;
+            min-height: 295px;
+            background-color: #10101a;
+            color: $primary-color;
+        }
+    
+        .tech-skill-frame {
+            min-width: 200px;
+            min-height: 295px;
+            background-color: #10101a;
+            color: $primary-color;
+        }
+    }
+}
+
+
+/*Footer section*/
+
+footer {
+
+    .footer-background {
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    .sources {
+        max-width: 450px;
+        margin-top: 0px;
+        display: grid;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color:$primary-color;
+            font-family: 'Alegreya Sans', sans-serif;
+            margin-bottom: 10px;
+        }
+    }
+
+    .social {
+        max-width: 450px;
+        margin-top: 0px;
+        margin-right: 0;
+
+        .social-links{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            text-decoration: none;
+            color: $primary-color;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+    }
+
+    a:hover {
+        background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
